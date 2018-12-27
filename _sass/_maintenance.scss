@@ -1,0 +1,35 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#maintenance {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #logo {
+        width: 230px;
+        height: auto;
+    }
+
+    h1 {
+        font-family: 'Leckerli One', cursive;
+        line-height: 80%;
+        
+        small {
+            font-family: 'Laila', serif;
+            font-size: 1.5rem;
+        }
+    }
+
+    .description {
+        color: #acacac;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
