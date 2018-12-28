@@ -11,6 +11,18 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: $green; 
+
+    .circle {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        border-radius: 50%;
+    }
 
     #logo {
         width: 230px;
@@ -28,7 +40,7 @@ html, body {
     }
 
     .description {
-        color: #acacac;
+        color: rgba(black, 50%);
         text-align: center;
         margin-top: 40px;
     }
